@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 95%;
+    margin: auto;
+}
+.phone {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.image {
+    float: left;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+.border {
+    border: 10px solid #1f1f92;
+    background: #1f1f92;
+}
+.a1 {
+    color: white;
+    padding-left:5px;
+}
+.background {
+    background-image: url(image/zazor.png);
+    width: 90%;
+    height: 336px;
+    margin: 40px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.number {
+    font-size: 25px;
+    color: dimgray;
+} 
+nav {
+    width: 85%;
+    margin: auto;
+}
+.menuborder { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to top, #000000, #434343);
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+a:hover {
+    background-color: cadetblue;
+    padding: 8px;
+    border-radius: 10px; 
+}
+#tovar {
+    color: lightgray;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 68px;
+}
+.borderform {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+}
+.borderform1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+}
+.borderform2 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+}
+.textinform {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    font-size: 20px;
+}
+.forma {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.margin {
+    margin-top: 10px;
+}
+.find {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.textinform2 {
+    display: flex;
+    color: blue;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.season {
+  display: flex;
+    flex-direction: column;
+}
+.marginforform2 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.find1 {
+    margin-top: 16px;
+  margin-left: 155px;  
+}
+.disk {
+    display: flex;
+    flex-direction: column;
+}
+.find2 {
+    margin-top: 31px;
+    margin-left: 285px;
+}
+.leftsidebar {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.katalog {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 300px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: blue;
+    
+}
+.shina {
+     border: 1px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+    color: blue;
+}
+ul {
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+}
+.diski {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+    color: blue;
+}
+.bolt {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+    color: blue;
+}
+.main {
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    color: blue;
+    margin-top: 30px;
+    width: 50%;
+    height: 600px;
+    margin-left: 10px;
+    background: linear-gradient(to top, #5baebb, #e5f2f5);
+}
+.koleso {
+    display: flex;
+    justify-content: space-around;
+}
+aside {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mar {
+    padding-left: 35px;
+}
+.brand {
+      border: 1px solid gray;
+    border-radius: 20px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 30px;
+    color: blue;
+    margin-right: 90px;
+    margin-left: 35px;
+}
+.shinaright {
+      border: 1px solid gray;
+    border-radius: 20px;
+    width: 150px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 30px;
+    color: blue;
+    margin-right: 90px;
+    margin-left: 35px;
+}
+.formright {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin-left: 200px;
+}
+.backgrountbrand {
+    background-image: url(brand.png);
+    width: 730px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.backgroundcolor {
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    background-color: #000d4c;
+    color: lightgray;
+    width: 90%;
+    height: 100px;
+    padding-top:  20px;
+}
+.enter {
+   margin-top: 20px;
+    color: lightgray;
+    background: #000d4c;
+    width: 75px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mar1 {
+    margin-top: 30px;
+}
